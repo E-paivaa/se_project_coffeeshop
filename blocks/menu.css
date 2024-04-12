@@ -11,7 +11,7 @@
   margin-left: auto;
   margin-right: auto;
   margin: 0 0 24px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -20,11 +20,12 @@
 }
 
 .menu__subtitle {
+  margin: 0 0 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
-  text-align: center;
-  font-family: "Noto Serif";
+  display: flex;
+  align-items: center;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

@@ -1,7 +1,7 @@
 .about {
   background-color: #0a2850;
   color: #fff;
-  padding: 100px 0 173px;
+  padding: 100px 80px 173px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -10,21 +10,21 @@
 }
 
 .about__title {
-  margin-left: 80px;
   max-width: 251px;
   z-index: 1;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 0;
 }
 
 .about__content {
   max-width: 660px;
   display: flex;
   justify-content: flex-end;
-  margin-top: 119px;
+  margin-top: 19px;
   margin-right: 80px;
   flex-direction: column;
   gap: 20px;
@@ -32,7 +32,7 @@
 
 .about__paragraph {
   margin: 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -62,7 +62,7 @@
   }
 }
 
-.about__circle-animation-blurred {
+.about__circle_animation_blurred {
   transform-origin: center;
   animation: pulsate 1.3s ease-in-out 1s infinite;
 }

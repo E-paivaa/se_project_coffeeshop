@@ -15,28 +15,29 @@
 }
 
 .header__title {
-  max-width: 720px;
+  z-index: 1;
+  max-width: 729px;
   font-size: 60px;
   line-height: 72px;
   margin: 183px 0 0;
   letter-spacing: -0.6px;
   font-weight: 500;
-  font-family: "Inter";
-  left: 80px;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .header__description {
+  z-index: 1;
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
 }
 
 .header__image {
-  z-index: 1;
+  z-index: 0;
   position: absolute;
   max-width: 646px;
   height: 568px;
@@ -46,7 +47,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -55,28 +56,20 @@
 }
 
 .header__footer {
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   margin-top: auto;
   box-sizing: border-box;
+  align-items: flex-end;
 }
 
-.header__time {
+.header__paragraph {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
   margin: 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-}
-
-.header__location {
-  margin: 40px 0 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
 }
