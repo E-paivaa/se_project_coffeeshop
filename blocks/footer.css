@@ -41,7 +41,6 @@
 
 .footer__list-item {
   line-height: 20px;
-  margin: 0 0 16px;
   color: #c1c1c1;
 }
 
@@ -55,7 +54,7 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +62,7 @@
   color: #fff;
   transition: ease-in 0.8s;
 }
-.footer__social-link: last-child {
+.footer__social-link:last-child {
   margin-bottom: 0;
 }
 
