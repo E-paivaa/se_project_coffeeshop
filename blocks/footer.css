@@ -40,8 +40,7 @@
 }
 
 .footer__list-item {
-  line-height: 20px;
-  color: #c1c1c1;
+  margin: 0;
 }
 
 .footer__social-icon {
